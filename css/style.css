@@ -1,0 +1,89 @@
+/* styles for the body */
+body {
+  background: bisque;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* styles for the mobile layout */
+/* styles for the Ram id */
+#Ram {
+    width: 100%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5em;
+}
+
+header {
+    margin-top: 0.4em;
+    border-radius: 0.5em;
+    text-align: center;
+
+}
+header a img {
+    size: 640px;
+}
+
+nav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.25em;
+    font-weight: bolder;
+    margin-top: 2%;
+    text-align: center;
+
+}
+
+nav ul {
+    padding: 0;
+    margin-top: 0.3em;
+    margin-bottom: 0.2em;
+
+}
+
+/* styles for the li in the ul of the nav element */
+nav li {
+    margin: 0.4em;
+    background-color: #f66d98;
+    list-style-type: none;
+    padding: 0.7em;
+    border-radius: 3em;
+}
+/* styles for the anchor elements inside the li inside nav */
+nav li a {
+    color: #000000;
+    text-decoration: none;
+  }
+  /* styles to hide the desktop class */
+.desktop {
+    display: none;
+  }
+/* styles to display mobile class */
+.mobile {
+    display: inline;
+    font-weight: bold;
+    color:rgb(154, 0, 220) ;
+  }
+  #copyright{
+    color: #000000;
+    font-size: .8em;
+    text-align: center;
+    margin-top: 2.5em;
+  }
+  #shadowbox{
+    text-align: start;
+  }
+  #Arsenel{
+    image-rendering: auto;
+  }
+#Listings{
+    text-shadow: chartreuse;
+    text-justify: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    font-weight: normal;
+    margin: auto;
+    padding-left: 2em;
+}
